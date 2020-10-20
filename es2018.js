@@ -7,6 +7,8 @@ let obj = {
 
 let { a, b, ...z } = obj;
 
+console.log(1, 2, 3, 4, 5, 6);
+
 console.log(a, b, z);
 
 let map = [
@@ -19,3 +21,4 @@ console.log(Object.fromEntries(map));
 let str = '    hello world     ';
 console.log(str.trimStart());
 console.log(str.trimEnd());
+console.log('hello');
